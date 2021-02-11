@@ -1,0 +1,121 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+ .cta{
+ 	font-weight: 600;
+ }
+
+
+.bg-img{
+	background: url(../imagens/banner.png) no-repeat center center/cover;
+}
+
+.bg-color{
+	padding: 100px 0 100px 0;
+	background-color: #EAEDED;
+}
+
+.offer {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 25px;
+	background: #EDF5F5;
+}
+
+.emp {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 25px;
+	font-size: 20px;
+	font-weight: 600;
+  	background: #EDF5F5;
+  	padding: 5px 5px 5px 5px;
+  	margin: 5px 5px 5px 5px;
+}
+.emp h3{
+	font-weight: 600;
+
+	}
+.emp:hover {
+	transform: scale(1.05);
+	transition: 1s;
+}
+
+.box{
+	border-radius: 25px;
+	justify-content: space-between;
+    border: 3px solid transparent;
+  	background-clip:padding-box;
+}
+
+#form-msg{
+	background-color: white;
+  	position: fixed;
+  	top: 50%;
+  	left: 50%;
+ 	transform: translate(-50%, -50%);
+	border-radius: 10px;
+}
+
+
+
+.form-header {
+	background-color: green;
+	padding: 10px;
+	border-radius: 10px 10px 0 0;
+
+}
+
+.txt-cont{
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.line{
+	border-top: 1px solid green;
+}
+
+#servicos{
+	background: #f4f5f8
+	padding-top : 30px;
+	padding-bottom: 60px;
+}
+
+.top-servicos{
+	padding-top: 40px;
+}
+
+.color-brand{
+	background-color:#009900;
+}
+
+.selecao-servicos{
+	padding: 5px;
+	margin-bottom: 40px;
+	background: #fff;
+	border: 2px solid #fff;
+	border-radius: 8px;
+	box-shadow: 0 15px 30px rgba(102, 113, 228, 0.20);
+	text-align: center;
+}
+
+.icon-servico{
+	font-size: 30px;
+	margin: 20px auto;
+	padding: 20px;
+	height: 80px;
+	width: 80px;
+	background: #f4f5f8;
+	border-radius: 50%;
+
+}
+
+.selecao-servicos:hover .icon-servico {
+	color: #fff;
+	background: #212529;
+	transition: 1s;
+}
+
+.selecao-servicos:hover{
+	box-shadow: 0 15px 30px rgba(102, 113, 228, 0.50);
+	transition: 1s;
+}
